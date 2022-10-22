@@ -1,42 +1,38 @@
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Raleway:wght@400;700&display=swap');
-
-/* main */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-   background-color: #184059;
-   align-items: center;
-   display: flex;
-   flex-wrap: wrap;
-   font-family: 'Raleway', sans-serif;
-   height: 100vh;
-   justify-content: center;
-   margin: 0;
-   overflow: hidden;
-   text-align: center;
+  background-color: rgb(161, 100, 223);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .btn {
-   background-color: #F2D0A7;
-   border: none;
-   border-radius: 5px;
-   color: #733D6A;
-   font-family: inherit;
-   font-size: 1.2rem;
-   font-weight: 800;
-   margin: 1rem;
-   padding: 1.5rem 3rem;
-}
-
-.btn:focus {
-   cursor: pointer;
-   outline: none;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .btn:hover {
-   background-color: #D9B97E;
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
 }
